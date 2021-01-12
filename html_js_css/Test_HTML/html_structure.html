@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Come on </title>
+</head>
+<body>
+<!--这是一个注释-->
+
+<!--        静夜思-->
+<!--    床前明月光，疑是地上霜。-->
+<!--    举头望明月，低头思故乡。-->
+
+<h1>一级标题</h1>
+<h2>二级标题</h2>
+<h3>三级标题</h3>
+<h4>四级标题</h4>
+<!--hr 表示一条下划线-->
+<hr>
+<h5>五级标题</h5>
+<h6>六级标题</h6>
+
+<!--br代表当个字符换行-->
+<p>p标签代表一<br>个段落，paragraph</p>
+
+<!--&nbsp;表示单个的空格-->
+<div>Hello,Mike,I miss &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;you</div>
+
+<!--div会自动换行-->
+<div>这是第一个DIV</div>
+<div>这是第二个DIV</div>
+<div style="background: bisque;width: 50000px;height: 50px">学好<span style="font-size: 25px;color: mediumaquamarine">Golang </span>走遍区块链也不怕！
+</div>
+
+<!--带样式的标签-->
+<h2>这个是带样式的标签</h2>
+
+<em>这个是em</em>
+<i>这个是I标签</i>
+<b>这个是b标签</b>
+<strong>这个是strong标签</strong>
+<h3>给大家看个美女图片</h3>
+<img src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1602608763&di=650438c384ce569ed8a6416c479fd001&src=http://pic1.win4000.com/mobile/2017-12-01/5a20ec00ecbb4.jpg"
+     alt="网图美女">
+
+<h3>下面是百度链接</h3>
+<a href="https://www.baidu.com">百度一下，你就知道！</a>
+
+<h4>给大家展示下docker</h4>
+<img src="image/docker.jpg" alt="docker" width="900px" height="600">
+
+<!--无序列表-->
+<ul>
+    <li>篮球</li>
+    <li>足球</li>
+    <li>兵乓球</li>
+    <li>橄榄球</li>
+    <li>排球</li>
+</ul>
+
+<!--有序列表-->
+<ol>
+    <li>篮球</li>
+    <li>足球</li>
+    <li>兵乓球</li>
+    <li>橄榄球</li>
+</ol>
+
+<!--定义表格: 简单的表格由table元素以及一个或者多个tr、th和td元素组成-->
+<!--tr元素定义表格行, th元素定义表头，td元素定义表格单元-->
+<table border="1">
+    <tr>
+        <th>name</th>
+        <th>Java</th>
+        <th>Python</th>
+    </tr>
+    <tr>
+        <th>小明</th>
+        <th>熟悉</th>
+        <th>了解</th>
+    </tr>
+    <tr>
+        <th>小华</th>
+        <th>了解</th>
+        <th>精通</th>
+    </tr>
+</table>
+
+<!--form标签-->
+<!--表单能够包含input元素，比如文本字段、复选框、单选框、提交按钮等-->
+<!--form的属性: action：定义表单数据提交地址-->
+<!--method:定义表单提交的方式（常见的有get和post）-->
+<h4>表单</h4>
+<form action="" method="post">
+    <label for="">账号</label>
+    <input type="text" name="user"><br>
+    <label for="">密码</label>
+    <input type="password" name="pwd"><br>
+    <label for="">验证码</label>
+    <input type="text" name="ver_code"><br>
+    <input type="submit" value="提交"><br>
+
+    <!--    单选框-->
+    <label for="">爱好</label><br>
+    篮球<input type="checkbox" name="a">
+    足球<input type="checkbox" name="a">
+    皮球<input type="checkbox" name="a">
+    排球<input type="checkbox" name="a">
+    铅球<input type="checkbox" name="a">
+    <input type="radio" value="撸代码">撸代码<br>
+    <input type="radio" value="赚钱">赚钱<br>
+    <input type="radio" value="泡妹子">泡妹子<br>
+    <input type="radio" value="高尔夫">高尔夫<br>
+
+
+    <input type="file" value="点击上传">
+
+
+    <input type="button" value="按钮"><br>
+    <!--    复选框-->
+    <label>技能</label><br>
+    <input type="checkbox" value="接口自动化">接口自动化<br>
+    <input type="checkbox" value="UI自动化">UI自动化<br>
+    <input type="checkbox" value="安全测试">安全测试<br>
+    <input type="checkbox" value="性能测试">性能测试<br>
+
+    <input type="reset">一键清除
+
+    <!--    隐藏域-->
+    <input type="hidden">
+    <input type="date"><br>
+    <input type="email"><br>
+    <input type="url"><br>
+    <input type="datetime-local"><br>
+    <input type="time"><br>
+    <input type="month"><br>
+    <input type="week"><br>
+    <input type="number"><br>
+    <input type="range"><br>
+    <input type="search"><br>
+    <input type="color"><br>
+    <input type="tel"><br>
+</form>
+
+<!--下拉框-->
+<select id="cars">
+    <option value="benz">奔驰</option>
+    <option value="bmw">宝马</option>
+    <option value="audi">奥迪</option>
+    <option value="landrover">路虎</option>
+    <option value="maserati">玛莎拉蒂</option>
+    <option value="bentley">宾利</option>
+    <option value="lamborghini">兰博基尼</option>
+</select>
+请输入你的车型: <input type="text" list="cars">
+
+
+<div>{
+    "Author":"George","Desc":{"body":"This is my first Html file"}
+    }
+</div>
+<!--内联框架-->
+<iframe src="https://www.baidu.com" width="1000" height="600" frameborder="400"></iframe>
+<iframe src="https://cn.bing.com/" width="1000" height="600" frameborder="400"></iframe>
+
+
+</body>
+</html>

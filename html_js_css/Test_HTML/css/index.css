@@ -1,0 +1,59 @@
+.top_menu {
+    height: 100px;
+    /*background: blue 颜色单词; rgb表示;rgba可以设置透明度;十六进制显示法*/
+    /*background: rgb(0, 0, 255);*/
+    background: #03c;
+}
+/*body {
+    background-image:url("/ODT/html_js_css/Test_HTML/image/airline.jpg");
+}*/
+
+.title {
+    background: crimson;
+    width: 350px;
+    color: #fff;
+    font: normal 32px/100px 微软雅黑;
+    text-align: center;
+    float: left;
+}
+
+.menu_list {
+    float: left;
+    width: 800px;
+    background: cyan;
+    height: 100px;
+
+}
+
+.menu_list ul {
+    margin: 0;
+}
+
+/* 层级显示器 选择class为menu_list下面的li标签 */
+.menu_list li {
+    float: left;
+    mso-background: #0033cc;
+    width: 150px;
+    height: 100px;
+    list-style: none;
+    font: normal 20px/100px 微软雅黑;
+    text-align: center;
+}
+
+/*.box1 {
+    height: 200px;
+    width: 200px;
+    background: #0033cc;
+    float: left;
+    padding: 50px;
+    margin: 30px;
+    border: solid 10px #000;
+}*/
+
+/*
+.box2 {
+    height: 200px;
+    width: 200px;
+    background: #00dd77;
+    float: left;
+}*/

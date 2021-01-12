@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="59724cfc-5cee-4d1b-a4ce-b60602c31be2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iitBuWgN7az78zdFjsoTE7KBGH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59724cfc-5cee-4d1b-a4ce-b60602c31be2" name="Default Changelist" comment="" />
+      <created>1602402107446</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602402107446</updated>
+      <workItem from="1602402108495" duration="16018000" />
+      <workItem from="1602905384633" duration="3865000" />
+      <workItem from="1603812823256" duration="16000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1365" y="526" key="#Notifications" timestamp="1602607913065">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1365" y="526" key="#Notifications/0.0.2560.1400@0.0.2560.1400" timestamp="1602607913065" />
+    <state x="681" y="612" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602431812103">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="681" y="612" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1602431812103" />
+    <state x="1866" y="503" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602609828257">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1866" y="503" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1602609828257" />
+    <state x="1436" y="713" key="FileChooserDialogImpl" timestamp="1602433822081">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1436" y="713" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1602433822081" />
+    <state x="1680" y="320" width="672" height="678" key="search.everywhere.popup" timestamp="1602608610873">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1680" y="320" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1602608610873" />
+  </component>
+</project>
