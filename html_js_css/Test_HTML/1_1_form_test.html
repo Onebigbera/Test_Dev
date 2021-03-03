@@ -7,11 +7,12 @@
 <body>
 
 <form action="" method="get">
+    <!--    通过label标签来关联表单id，聚焦到输入框-->
     <label for="email">邮箱账号:</label>
     <input type="text" name="email" id="email">
     <br>
-    <label for="">昵称</label>
-    <input type="text" name="user">
+    <label for="user">昵称</label>
+    <input type="text" name="user" id="user">
     <br>
     <label for="">密码</label>
     <input type="password" name="pw1">
@@ -69,6 +70,7 @@
     <br>
     <!--文本输入框-->
     <label for="">详细地址</label>
+    <!--    col 属性限制最大字符串长度-->
     <textarea name="detail_address" id="detail" cols="" rows=""></textarea>
     <br>
     <!--重置按钮-->
@@ -78,10 +80,13 @@
     <input type="hidden" name="token" value="this is token value">
     <input type="submit" value="提交">
     <input type="button" value="普通按钮">
-    <input type="image" src="./image/docker.jpg">
+    <input type="image" src="./image/docker.jpg" value="图片按钮">
     <br>
-    文件上传<input type="file">
+    文件上传<input type="file" name="file_upload">
 
+    <!--    内联框架-->
+    <iframe src="https://www.baidu.com" frameborder="4000" height="200"></iframe>
+    <iframe src="http://www.lemonban.com" frameborder="4000" height="200"></iframe>
 </form>
 
 </body>

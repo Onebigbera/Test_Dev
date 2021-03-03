@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css引入的三种形式</title>
+    <link rel="stylesheet" href="./css/common.css" type="text/css">
+    <style>
+        .menu2 {
+            height: 200px;
+            width: 300px;
+            background: #0033cc;
+        }
+    </style>
+</head>
+<body>
+<!--1.内联式  通过标签的style属性进行设置-->
+<div style="height: 200px;background: #9ad2ed">这是菜单栏一</div>
+
+<!--2.外链式  link标签引入(css写在一个css文件中)-->
+<div class="menu3">这是菜单二</div>
+
+<!--3.嵌入式  在head中通过style标签设置，嵌入式引入可以加快页面响应方-->
+<div class="menu2">这是菜单栏三</div>
+
+</body>
+</html>

@@ -1,31 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .top_menu {
     height: 100px;
-    /*background: blue 颜色单词; rgb表示;rgba可以设置透明度;十六进制显示法*/
+    /*background: blue 颜色单词; rgb三原色法表示;rgba可以设置透明度;十六进制显示法(以#开头)*/
     /*background: rgb(0, 0, 255);*/
-    background: #03c;
+    /*background: #0033cc;  像这种重数直接选择单个即可*/
+    background: red;
 }
+
 /*body {
     background-image:url("/ODT/html_js_css/Test_HTML/image/airline.jpg");
 }*/
 
 .title {
-    background: crimson;
+    background: cornflowerblue;
     width: 350px;
     color: #fff;
-    font: normal 32px/100px 微软雅黑;
+    /*设置字体高度和父级高度一致，刚好填充*/
+    font: bold 32px/100px 微软雅黑;
     text-align: center;
     float: left;
 }
 
+/*类选择器*/
 .menu_list {
     float: left;
     width: 800px;
-    background: cyan;
+    background: cornflowerblue;
     height: 100px;
-
 }
 
-.menu_list ul {
+/*层级选择器*/
+.menu_list #ul {
+    margin: 0;
+}
+
+.menu_list {
     margin: 0;
 }
 
@@ -36,24 +49,10 @@
     width: 150px;
     height: 100px;
     list-style: none;
-    font: normal 20px/100px 微软雅黑;
+    font: normal 24px/100px bold 微软雅黑;
     text-align: center;
+
+
 }
 
-/*.box1 {
-    height: 200px;
-    width: 200px;
-    background: #0033cc;
-    float: left;
-    padding: 50px;
-    margin: 30px;
-    border: solid 10px #000;
-}*/
 
-/*
-.box2 {
-    height: 200px;
-    width: 200px;
-    background: #00dd77;
-    float: left;
-}*/
