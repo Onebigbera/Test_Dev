@@ -34,7 +34,7 @@
 ><script type="text/javascript">
 >//代码
 ></script>
->3、注释和java一样
+>3、注释和java一样  // 为单行注释； /**/为多行注释；
 >4、type可以省略，JavaScript 是所有现代浏览器以及 HTML5 中的默认脚本语言。但为了兼容旧版浏览器，最好不要省略
 >5、type 可以换成language属性
 ><script language="javascript"></script>
@@ -123,7 +123,7 @@
 
    ![img](http://opzv089nq.bkt.clouddn.com/17-8-21/46224657.jpg)
 
-## 五、分号分号
+## 五、分号
 
  JavaScript和其他语言一样,是用分号(;)将语句分开,这个对于增加代码的整洁性,和可读性非常重要,缺少分隔符,一条语句的结束可能就成了一条语句的开始
 

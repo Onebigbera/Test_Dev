@@ -100,7 +100,7 @@ body {
     text-indent: 50px;
     float: left;
     color: rgba(51, 62, 82, 0.73);
-    /*1.添加背景图 2.背景图不平铺 3.背景图定位*/
+    /*1.添加背景图 2.背景图不平铺 3.背景图定位 以背景图方式实现*/
     background-image: url("../image/test_down.png");
     background-repeat: no-repeat;
     background-position: 180px;

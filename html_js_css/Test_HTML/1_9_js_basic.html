@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>js部分</title>
+<style>
+    #btn {
+        width: 100px;
+        height: 100px;
+        background: #9a2b4b;
+    }
+</style>
+
+
+<script type="text/javascript" src="./js/main.js"></script>
+
+<body>
+
+<!--行间设置js代码-->
+<div id="btn" onclick="alert('点击div就会触发此弹出信息')">div1</div>
+
+<!--在script标签对中的js代码-->
+<script type="text/javascript">
+    // alert("Hello,world!")
+    document.getElementById('btn').style.background = 'blue'
+</script>
+
+</body>
+</html>
