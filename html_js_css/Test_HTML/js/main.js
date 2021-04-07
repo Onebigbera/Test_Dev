@@ -113,5 +113,15 @@ function add(var1, var2) {
 const res = add(100, 120);
 console.log(res)
 
+// 创建对象
+const objA = {
+    name: "Mike",
+//    在定义对象时设置方法
+    func: function () {
+        alert("设置对象的方法时不需要设置函数名称")
+    }
+}
 
-
+// 属性操作 既可以使用obj.attr 也可以使用 obj[attr]来操作属性
+objA.name = 'Jone'
+objA['name'] = "Tom"
