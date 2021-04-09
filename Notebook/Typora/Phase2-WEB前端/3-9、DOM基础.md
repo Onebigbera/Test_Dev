@@ -29,6 +29,10 @@
 
 ​	4、DOM Level 0: 首先我们的确定的是在DOM标准中并没有DOM 0级的。所谓的DOM 0级是DOM历史坐标中的一个参照点而已，具体说呢，DOM 0级指的是IE4和Netscape 4.0这些浏览器最初支持的DHTML。
 
+DOM TREE
+
+![](F:\Projects\Test_Dev\Notebook\Typora\Phase2-WEB前端\images\DOM_tree.png)
+
 
 
 ## 1.2	DOM节点概述

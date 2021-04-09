@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        window.onload = function () {
+            // window.onload方法就是BOM方法，等待页面加载完毕执行此函数
+            const box1 = document.getElementById('box1'); // 通过id选择
+            box1.style.width = "100px";
+            box1.style.height = "50px";
+            box1.style.background = "cyan";
+
+
+            const btn2 = document.getElementsByClassName('btn1')[0]; // 通过class选择，返回的是选择集
+            btn2.style.background = "red";
+            console.log(btn2.innerHTML);
+            console.log(btn2.innerText);
+
+            const input = document.getElementsByTagName('input')[0];
+            // 修改对象的属性
+            input.type = 'password';
+
+            // 通过标签选择
+            const list = document.getElementsByTagName('li');
+            for (let i = 0; i < list.length; i++) {
+                if (i % 2 === 0) {
+                    list[i].style.background = 'pink';
+
+                } else {
+                    list[i].style.background = 'yellow';
+                }
+            }
+        };
+
+        function tk() {
+            alert("Python");
+            alert("Java");
+        }
+
+
+    </script>
+</head>
+
+<body>
+
+<div>
+    <div id="box1">box1</div>
+    <div id="box2">box2</div>
+    <div class="btn1">
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+        </ul>
+    </div>
+    <div class="btn2">box4</div>
+    <label>
+        <input type="text">
+    </label>
+    <div class="btn2" onclick="tk()">box4</div>
+</div>
+
+</body>
+</html>

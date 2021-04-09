@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery practice</title>
+    <script type="text/javascript" src="./js/jquery_1.12.4.min.js"></script>
+    <script type="text/javascript">
+        // $的含义就是jquery,$()代表jquery的函数;$(function(){})代表将一个匿名函数作为参数传到jquery的函数中
+        $(function () {
+            // id选择器
+            $('#box1').css({width: "300px", height: "200px", background: "red"});
+
+            // class选择器
+            $('.btn1').css({width: "300px", height: "200px", background: "pink"});
+
+            // 标签选择器,选择集可以直接设置样式
+            $('li').css({width: "30px", height: "20px", background: "pink", fontSize: '24px'});
+
+            // 兄弟节点
+            // preAll: 选择该节点前面所有的节点;
+            // next: 选择该节点的下一个节点
+            // nextAll: 选择该节点后面所有的兄弟节点
+            // sibLings: 选择所有的兄弟节点
+            const li3 = $('#li3').css({background: "green"});
+            li3.prev().css({background: "yellow"});
+
+            // 链式调用
+            $('#li5').css({background: "green"}).prev().css({background: "yellow"});
+
+            $('#li2').css({background: "green"}).siblings().css({background: "yellow"});
+
+            // 多重链式调用
+            // 父节点: parent()
+            // 子节点: children()
+            $('ul').css({width: "500px", height: "200px", background: "blue"}).parent().css({
+                width: "500px",
+                height: "200px",
+                background: "gray"
+            }).parent().css({width: "500px", height: "200px", background: "red"}).children().css({
+                fontSize: "50px"
+            });
+
+            // 过滤选择器 查找包含a标签的class为dv2的标签
+            $('.dv2').has('a').css({width: "500px", height: "200px", background: "red"});
+
+            // 过滤选择器  选择不包含class为dv2的div标签
+            $('div').not('.dv2').css({background: "yellow"});
+
+            // 选择class等于cs的div元素
+            $('div').filter('.cs').css({background: "yellow"});
+
+            // 根据索引过滤,选择索引为1的li标签并且设置其css样式
+            $('li').eq(1).css({background: "green"});
+
+        })
+    </script>
+</head>
+<body>
+<div>
+    <div id="box1">box1</div>
+    <div id="box2">box2</div>
+    <div class="btn1">
+        <input type="text">
+        <ul>
+            <li id="li1">1</li>
+            <li id="li2">2</li>
+            <li id="li3">3</li>
+            <li id="li4">4</li>
+            <li id="li5">5</li>
+        </ul>
+    </div>
+    <div class="btn2">box4</div>
+    <label>
+        <input type="text">
+    </label>
+    <div class="btn2" onclick="tk()">box4</div>
+
+    <div class="dv2">dv1</div>
+    <div class="dv2">
+        <a href="">a标签</a>
+    </div>
+    <div class="dv22">dv3</div>
+    <div class="dv2">dv4</div>
+</div>
+
+</body>
+</html>
