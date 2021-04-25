@@ -44,13 +44,13 @@
             $('.dv2').has('a').css({width: "500px", height: "200px", background: "red"});
 
             // 过滤选择器  选择不包含class为dv2的div标签
-            $('div').not('.dv2').css({background: "yellow"});
+            $(`div`).not('.dv2').css({background: "yellow"});
 
             // 选择class等于cs的div元素
             $('div').filter('.cs').css({background: "yellow"});
 
             // 根据索引过滤,选择索引为1的li标签并且设置其css样式
-            $('li').eq(1).css({background: "green"});
+            $(`li`).eq(1).css({background: "green"});
 
         })
     </script>
@@ -60,7 +60,6 @@
     <div id="box1">box1</div>
     <div id="box2">box2</div>
     <div class="btn1">
-        <input type="text">
         <ul>
             <li id="li1">1</li>
             <li id="li2">2</li>
